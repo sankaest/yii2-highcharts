@@ -1,5 +1,5 @@
 {
-	"name": "sankaest/yii2-highcharts-widget",
+	"name": "sankaest/yii2-highcharts",
 	"description": "Highcharts widget for Yii 2 Framework.",
 	"keywords": ["yii2", "extension", "widget", "highcharts", "highstock", "highmaps"],
 	"homepage": "https://github.com/sankaest/yii2-highcharts",
@@ -7,13 +7,12 @@
 	"license": "MIT",
 	"authors": [
 		{
-			"name": "Milo Schuman",
-			"email": "sankaest@gmail.com"
+			"name": "Aleksander Andre",
+			"email": "aleksander@axendo.ee"
 		}
 	],
 	"minimum-stability": "dev",
 	"require": {
-		"yiisoft/yii2": "*",
         "bower-asset/highcharts" : "^8.0"
 	},
     "require-dev": {
