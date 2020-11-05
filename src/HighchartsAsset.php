@@ -10,6 +10,7 @@
 
 namespace sankaest\highcharts;
 
+use yii\web\JqueryAsset;
 use yii\web\AssetBundle;
 
 /**
@@ -17,8 +18,8 @@ use yii\web\AssetBundle;
  */
 class HighchartsAsset extends AssetBundle
 {
-    public $sourcePath = '@bower/highcharts';
-    public $depends = ['yii\web\JqueryAsset'];
+    public $sourcePath = '@vendor/bower-asset/highcharts';
+    public $depends = [JqueryAsset::class];
 
     /**
      * Registers additional JavaScript files required by the widget.
