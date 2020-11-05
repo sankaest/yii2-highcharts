@@ -1,6 +1,6 @@
 {
 	"name": "sankaest/yii2-highcharts",
-	"description": "Highcharts widget for Yii 2 Framework.",
+	"description": "Highcharts widget for Yii 2 Framework. ",
 	"keywords": ["yii2", "extension", "widget", "highcharts", "highstock", "highmaps"],
 	"homepage": "https://github.com/sankaest/yii2-highcharts",
 	"type": "yii2-extension",
